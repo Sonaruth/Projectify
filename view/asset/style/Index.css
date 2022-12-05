@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    color: #2F5BF9;
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+    margin-left: 35px;
+}
+.container{
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 15%; 
+}
+nav ul a{
+    margin: 2px;
+}
+#open{
+    display: none;
+}
+#close{
+    display: none;
+}
+header nav ul li{
+    float: left;
+    text-align: end;
+}
+ header nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 10px 0 0;
+    color: #2F5BF9;
+    text-decoration: none;
+}
+.background-pic{
+        width: 100%;
+        height: 100vh;
+        margin-top: 20px;
+        overflow: hidden;
+        background-image: url("./image\ 1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex; 
+        object-fit: cover;
+        background-size: cover;
+        flex-direction: column;
+}
+.para-one{
+    width: 80%;
+    margin-inline:auto ;
+    color: #FFFFFF;
+    margin: 5%;
+    margin-top: 5%;
+}
+.para-one h1{
+    width: 100%; 
+    margin-top: 13%;
+    font-size: 54px;
+    line-height: 77.45px;
+    text-align: center;
+}
+.para-one p{
+    text-align: center;
+    width: 100%; 
+  }  
+.my-buttons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    line-height: 19.36px;
+    margin-bottom: 20%;
+} 
+button{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 20%;
+    border: 2px solid #2F5BF9;
+    border-radius: 50px;
+    background-color: #2F5BF9;
+}
+/* FIRST TWO SECTIONS Of THE FIRST PAGE */
+.sect-one{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 6%;
+}
+.sect-one .products{
+    width: 75% ;
+    margin: auto;
+    font-size: 24px;
+    color: #9F9F9F;
+}
+
+/*MEDICINE,ENGINEERING & PHYSICS COLUMNS*/
+ .three-columns{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    position: relative;
+}
+/* MEDICINE */
+.three-columns .medd{
+    width: 100%;
+    border-left: 5px solid #D9D9D9;
+    border-bottom: 5px solid #D9D9D9 ;
+    background-color: #FFFFFF;
+   
+}
+.three-columns .medi{
+    width: 25%;
+    height: 40rem;
+    padding-bottom: 8px;
+}
+.three-columns .medd .img{
+    width: 80%;
+    height: 30%;
+    text-align: start;
+}
+.three-columns .medd .img img{
+    width: 100%;
+    height: 70%;
+    margin-right: 90%;
+    margin-bottom: 5%;
+}
+.three-columns .medd .course{
+    margin-left: 5%;
+}
+.three-columns .medd .course p{
+    margin-bottom: 5%;
+}
+.three-columns .medd .course .span-med{
+    margin-left: 5%;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10%;
+}
+.three-columns .medd .course .title{
+    display: flex;
+    width: 100%;
+
+}
+.three-columns .medd .course .span-title{
+    margin-left: 8%;
+    width: 85%;
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+.three-columns .medd .course .span-title P{
+    width: 50%;
+}
+.three-columns .describe-para{
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+}
+.three-columns .describe-para p{
+    margin-right: 3px;
+    width: 100%;
+}
+.three-columns .icons{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+    justify-content:space-between;
+}
+ .ikon1{
+    margin-top: 2rem;
+}
+.ikon2{
+    margin-top: -2rem;
+}
+.three-columns .icons .naira-icon{
+    display: flex;
+}
+.three-columns .icons .naira-icon img{
+     width: 20%;
+     gap: 10%;
+}
+.three-columns .icons .naira-icon .cost{
+   font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.three-columns .med-footer{
+    width: 100%;
+}
+.three-columns .med-footer p{
+    text-align: center;
+}
+
+/* PHYSICS */
+
+.blue1{
+   width: 100%;
+   margin-top: 18%;
+  position: absolute;
+}
+
+.blue1 img{
+    width: 25%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.blue2{
+    width: 100%;
+    top: 0;
+    position: absolute;
+ }
+ 
+ .blue2 img{
+    width: 35%;
+    z-index: -1;
+    margin-top: 30%;
+     left: 70%;
+     position: absolute;
+ }
+ 
+/* PART  3*/
+.sub-nav{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+ }
+.sub-nav .project-nav{
+    width: 90%;
+    height: 80px;
+    margin-left: 8%;
+    background-color: #2F5BF9;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+}
+.sub-nav .project-nav p{
+    width: 80%;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.sub-nav .project-nav h2{
+   padding-top: 20px;
+   margin-right: 10px;
+}
+ .the-bluebackground{
+    width: 100%;
+    margin-top: 3%;
+    top: 10%;
+    display: flex;
+    background-color: #2F5BF9;
+ }
+ .the-bluebackground .blue-backgroundtext{
+    width: 5%;
+    color: #FFFFFF;
+    margin-top: 10%;
+ } 
+ .the-bluebackground .blue-backgroundtext h2{
+    margin-top: 10%;
+    margin-left: 10px;
+ } 
+ .arrow .medd{
+    width: 100%;
+ }
+ .row{
+    width: 2rem;
+    height: 10%;
+    border-radius: 50px;
+    border: 5px solid #FFFFFF;
+    margin-top: 18%;
+    background-color: #FFFFFF;
+
+ }
+.lastblue-div{
+    width: 5%;
+    position: absolute;
+    top: 0;
+}
+.lastblue-div img{
+    width: 100%;
+    height: 80vh;
+}
+
+
+/* PART 5*/
+.blue-image-paragraph{
+    width: 100%;
+   display: flex;
+    position: relative;
+   
+}
+.blue-image-paragraph .projectify-image{
+    width: 50%;
+    text-align: right;
+    margin-top: 5%;
+}
+/* PART 5*/
+.blue-image-paragraph .projectify-image img{
+   width: 90%;
+   height: 45vh;
+   object-fit: fill;
+}
+.projectify-paragraph{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+.projectify-paragraph p{
+   width: 90%;
+   margin: auto;
+}
+
+/* PART 5*/
+.why-projectify{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.why-projectify p{
+    color: #2F5BF9;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+.why-projectify p h2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+/* PART 6*/
+.flex-strategicapproach{
+    width:  100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.flex-strategicapproach .strategic{
+    width: 90%;
+    position: relative;
+}
+.flex-strategicapproach .strategic .elipse8{ 
+    position: relative;
+    width: 100%;
+}
+.flex-strategicapproach .strategic .elipse8 img{
+    width: 30%;
+    height: 800px;
+    position: absolute;
+    top: -500px;
+    right: 500px;
+}
+
+.flex-strategicapproach .strategic .one{
+    width: 2.5rem;
+    color: #FFFFFF;
+    border-radius: 65%;
+    background: #10215E;
+    height: 2.5rem;
+    display: flex;
+    margin-left: .6rem;
+    justify-content: center;
+    align-items: center;
+}
+.flex-strategic-approach .val{
+   margin-left: 0;
+}
+
+.flex-strategicapproach .strategic .setting-icon{
+    width: 2.5rem;
+}
+.flex-strategicapproach .strategic-projectify{
+    width: 100%;
+    top: 5%;
+    bottom: 10%;
+   
+}
+.flex-strategicapproach .strategic-projectify p{
+    width: 60%;
+    font-size: 24px;
+}
+.elipse8{
+    position: relative;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+/* PART 7 */
+.flex-strategicapproach .third{
+    width: 90%;
+    margin-left: 70%;
+}
+.third .one{
+    width: 2.6rem;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 60%;
+    background: #10215E;
+    height: 2.6rem;
+    justify-content: center;
+}
+
+
+.flex-strategicapproach .strategic-projectify{
+    width: 100%;
+    top: 5%;
+    bottom: 10%;
+}
+.flex-strategicapproach .third .strategic-projectify P{
+     font-size: 24px;
+}
+.footer{
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #2F5BF9;
+}
+.lastsection{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+}
+.lastsection .services{
+    width: 50%;
+}
+.lastsection .services p{
+    width: 30%;
+}
+.OUR-SERVICES{
+    width: 100%;
+
+}
+
+.QUICKLINKS{
+    width: 100%;
+   margin-top: 5%;    
+}
+.QUICKLINKS ul li{
+    list-style-type: circle;
+}
+.QUICKLINKS ul li a{
+    list-style: disc;
+    color:#FFFFFF;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+.QUICKLINKS ul li a .dot{
+    height: 5px;
+    width: 5px;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:1000px){
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+.logo{
+    margin-left: 0;
+    width: 90%;
+    height:50% ;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    width: 60%;
+    
+}
+.hamburger{
+  width: 40%;
+    text-align: end;
+ }
+.background-pic{
+    object-fit: contain;
+    background-size: cover;
+}
+header{
+   
+    display: flex;
+    overflow-x: hidden;
+}
+.container{
+   margin-left: 0;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   background-color: #10215E;
+   height: 90vh;
+   border-radius: 0 0 50px 50px;
+    top: 2.3rem;
+    display: none;
+}
+
+#open{
+    display: block;
+   
+    top: 0;
+    right: 0;
+    font-size: 19px;
+}
+
+#close{
+    display: none;
+    font-size: 19px;
+}
+   nav ul{
+        padding-top: 2rem;
+        all: unset;
+       display: grid;
+       place-items: center;
+       margin-left: 0;
+       left: 0;
+       height: 60vh;
+       width: 100%;
+       top: 0;
+    }
+    header nav ul li{
+        all: unset;
+      width: 100%;
+       font-size: 18px;
+      
+    }
+    header nav ul li a{
+        color: white;
+       font-size:18px;
+    }
+    
+    .para-one{
+        width: 90%;
+        display: grid;
+        place-items: center;
+        height: 60%;
+    }
+    .para-one h1{
+        font-size: 30px;
+        margin-bottom: 12px;
+        line-height: 32.45px;
+    }
+    .my-buttons{
+       text-align: center;
+    } 
+    button{
+        width: 30%;
+        height: 40%;
+        margin: auto;
+    }
+
+    /* FIRST TWO SECTIONS Of THE FIRST PAGE */
+    .sect-one{
+        margin-top: 10%;
+    }
+    .sect-one .products{
+    margin-bottom: 30px;
+    }
+    /*MEDICINE,ENGINEERING & PHYSICS COLUMNS*/
+    .three-columns{
+       flex-direction: column;
+       overflow-x: hidden;
+    }
+    /* MEDICINE */
+    .three-columns .medi{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* PART 3 */
+    .sub-nav{
+        width: 100%;
+        padding: 0;
+     }
+    .sub-nav .project-nav{
+        width: 95%;
+        height: 90px;
+        margin-left: 10px;
+    }
+    .project-nav p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .the-bluebackground .blue-backgroundtext{
+        margin-top: 30%;
+     } 
+
+    /* PART 4*/
+    .row{
+        margin-top: 48%;    
+     }
+     .arrow .icons{
+        width: 90%;
+     }
+
+     .arrow .icons .star-icon img{
+        width: 15%;
+     }
+
+     /* PART 5*/
+     .the-bluebackground{
+        width: 96%;
+     }
+    .blue-image-paragraph{
+        flex-direction: column;
+    }
+    .blue-image-paragraph .projectify-image{
+        width: 100%;
+       
+    }
+    .lastblue-div{
+        width: 10%;
+        top: 0;
+    }
+    .lastblue-div img{
+        height: 25rem;
+    }
+
+    .projectify-paragraph{
+        margin-top: 0%;
+        width: 85%;
+        margin: auto;
+    }
+    .why-projectify p h2{
+        font-size: 22px;
+    }
+
+    /* PART 5 */
+    .blue-image-paragraph .projectify-image img{
+        height: 25vh;
+     }
+     .projectify-paragraph{
+        width: 70%;
+    }
+    .projectify-paragraph p{
+        width: 100%;
+        margin: 5px;
+     }
+    /* PART 6*/
+.flex-strategicapproach{
+    grid-template-columns: 1fr;
+    margin-top: 0;
+}
+.flex-strategicapproach .strategic{
+    width: 100%;
+}
+.flex-strategicapproach .strategic .elipse8 img{
+    width: 15%;
+    display: none   ;
+    /* height: 500px; */
+    position: absolute;
+    right: 80px;
+}
+.value{
+    margin-bottom: 10px;
+    /* background-color: red; */
+}
+.elipse8{
+    /* position: relative; */
+    margin-left: 0;
+    margin-top: 10%;
+}
+    /* PART 7 */
+.flex-strategicapproach .third{
+    width: 100%;
+    margin-top: 10%;
+   margin-left: 0;
+}
+.lastsection{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.lastsection .services{
+    margin-bottom: 2rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.lastsection .services p{
+    width: 100%;
+    /* outline: 2px solid blue; */
+}
+.OUR-SERVICES{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.QUICKLINKS{
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+.QUICKLINKS ul li a{
+    margin-left: 0;
+}
+}
